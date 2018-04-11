@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16617" started-at="2018-04-06T13:45:02Z" finished-at="2018-04-06T13:45:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16617" started-at="2018-04-06T13:45:02Z" finished-at="2018-04-06T13:45:18Z">
+      <class name="testcase.Login">
+        <test-method status="PASS" signature="testData()[pri:0, instance:testcase.Login@4bee09]" name="testData" is-config="true" duration-ms="16" started-at="2018-04-06T19:15:02Z" finished-at="2018-04-06T19:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="openWebBrowser()[pri:0, instance:testcase.Login@4bee09]" name="openWebBrowser" is-config="true" duration-ms="7169" started-at="2018-04-06T19:15:02Z" finished-at="2018-04-06T19:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebBrowser -->
+        <test-method status="PASS" signature="loginScreen(java.lang.String, java.lang.String)[pri:0, instance:testcase.Login@4bee09]" name="loginScreen" duration-ms="1222" started-at="2018-04-06T19:15:09Z" data-provider="getData" finished-at="2018-04-06T19:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginScreen -->
+        <test-method status="PASS" signature="openWebBrowser()[pri:0, instance:testcase.Login@4bee09]" name="openWebBrowser" is-config="true" duration-ms="6376" started-at="2018-04-06T19:15:11Z" finished-at="2018-04-06T19:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebBrowser -->
+        <test-method status="PASS" signature="loginScreen(java.lang.String, java.lang.String)[pri:0, instance:testcase.Login@4bee09]" name="loginScreen" duration-ms="1162" started-at="2018-04-06T19:15:17Z" data-provider="getData" finished-at="2018-04-06T19:15:18Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginScreen -->
+      </class> <!-- testcase.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
